@@ -34,6 +34,9 @@ from gensim.models import KeyedVectors
 import matplotlib.cm as cm
 from sklearn.manifold import TSNE
 
+import nltk
+nltk.download('punkt')
+
 
 import streamlit as st
 
