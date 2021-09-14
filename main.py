@@ -187,6 +187,6 @@ if len(text_input3) != 0:
     tsne_model_en_2d = TSNE(perplexity=15, n_components=2, init='pca', n_iter=3500, random_state=32)
     embeddings_en_2d = np.array(tsne_model_en_2d.fit_transform(embedding_clusters.reshape(n * m, k))).reshape(n, m, 2)
     
-    tsne_plot_similar_words('Similar words trained from GME stock conversations', keys, embeddings_en_2d, word_clusters, 0.7,
+    tsne_plot_similar_words('Similar words trained from the reddit scraped conversations', keys, embeddings_en_2d, word_clusters, 0.7,
                         'GME_stock.png')
 
