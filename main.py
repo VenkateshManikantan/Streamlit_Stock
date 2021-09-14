@@ -5,7 +5,6 @@ import numpy as np
 import requests 
 import yfinance as yf
 import selenium
-from bs4 import BeautifulSoup
 import praw
 from praw.models import MoreComments
 
