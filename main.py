@@ -15,7 +15,7 @@ from reddit_extraction import extract_reddit_post_com_rep_ramp
 
 
 
-from afinn import Afinn
+
 from sklearn.feature_extraction.text import CountVectorizer
 
 import seaborn as sns
