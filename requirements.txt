@@ -31,7 +31,6 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pydantic==1.8.2
 pyproj==3.0.1
-python-Levenshtein-wheels==0.13.2
 pywin32==228
 pywin32-ctypes==0.2.0
 pywinpty==0.5.7
